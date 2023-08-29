@@ -1,15 +1,12 @@
-C:\Projetinhos\skyrim-project\bin\Debug\net7.0\appsettings.Development.json
-C:\Projetinhos\skyrim-project\bin\Debug\net7.0\appsettings.json
 C:\Projetinhos\skyrim-project\bin\Debug\net7.0\skyrim-project.exe
-C:\Projetinhos\skyrim-project\bin\Debug\net7.0\skyrim-project.deps.json
-C:\Projetinhos\skyrim-project\bin\Debug\net7.0\skyrim-project.runtimeconfig.json
 C:\Projetinhos\skyrim-project\bin\Debug\net7.0\skyrim-project.dll
-C:\Projetinhos\skyrim-project\bin\Debug\net7.0\skyrim-project.pdb
 C:\Projetinhos\skyrim-project\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Projetinhos\skyrim-project\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Projetinhos\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Projetinhos\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Projetinhos\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Projetinhos\skyrim-project\bin\Debug\net7.0\appsettings.Development.json
+C:\Projetinhos\skyrim-project\bin\Debug\net7.0\appsettings.json
 C:\Projetinhos\skyrim-project\obj\Debug\net7.0\skyrim-project.csproj.AssemblyReference.cache
 C:\Projetinhos\skyrim-project\obj\Debug\net7.0\skyrim-project.GeneratedMSBuildEditorConfig.editorconfig
 C:\Projetinhos\skyrim-project\obj\Debug\net7.0\skyrim-project.AssemblyInfoInputs.cache
@@ -29,5 +26,8 @@ C:\Projetinhos\skyrim-project\obj\Debug\net7.0\skyrim-project.csproj.CopyComplet
 C:\Projetinhos\skyrim-project\obj\Debug\net7.0\skyrim-project.dll
 C:\Projetinhos\skyrim-project\obj\Debug\net7.0\refint\skyrim-project.dll
 C:\Projetinhos\skyrim-project\obj\Debug\net7.0\skyrim-project.pdb
+C:\Projetinhos\skyrim-project\bin\Debug\net7.0\skyrim-project.deps.json
+C:\Projetinhos\skyrim-project\bin\Debug\net7.0\skyrim-project.runtimeconfig.json
+C:\Projetinhos\skyrim-project\bin\Debug\net7.0\skyrim-project.pdb
 C:\Projetinhos\skyrim-project\obj\Debug\net7.0\skyrim-project.genruntimeconfig.cache
 C:\Projetinhos\skyrim-project\obj\Debug\net7.0\ref\skyrim-project.dll
