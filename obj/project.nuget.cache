@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IapziGxwJjn2uzD6c6EzSzWcR/7IZ91b+fFKyqKpOu1CcUbZvRKfsO3NB7FuoZ+jqExR380U7pQVV+DAMtiEtg==",
+  "dgSpecHash": "YBEZtUBnsYEDs/RQetnB8i+dYjedMUDXgDhQzwgG1yeuN6Ku0Q7p8beD6Qd7hLW8NpFUqEWOm1b2EDWLzzaGDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bruno\\Desktop\\projetos ju\\skyrim-project\\skyrim-project.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.7\\microsoft.aspnetcore.openapi.7.0.7.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.10\\microsoft.aspnetcore.openapi.7.0.10.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",

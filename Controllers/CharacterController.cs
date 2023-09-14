@@ -13,7 +13,7 @@ namespace skyrim_project.Controllers
     public class CharacterController : ControllerBase
     {
 
-        private readonly ICharacterService _characterService;
+        private readonly ICharacterService _characterService; //declarando o serviço
 
         public CharacterController(ICharacterService characterService)
         {
@@ -21,23 +21,23 @@ namespace skyrim_project.Controllers
         }
 
         [HttpGet("GetAll")]
-        public ActionResult<List<Character>> Get()
+        public async Task<ActionResult<ServiceResponse<List<Character>>>> Get()
         {
-            return Ok(_characterService.GetAllCharacters());
+            return Ok(await _characterService.GetAllCharacters());
         }
 
         [HttpGet("{id}")] //our webservice knows that this string id is the same value id of the paramater in the line below
-        public ActionResult<List<Character>> GetSingle(int id) //find an chracter by their id
+        public async Task<ActionResult<ServiceResponse<List<Character>>>> GetSingle(int id) //find an chracter by their id
         {
             //return Ok(characters.FirstOrDefault(c => c.Id == id)); // returns the first character where the id of the character equals the given id
-            return Ok(_characterService.GetCharacterById(id));
+            return Ok(await _characterService.GetCharacterById(id));
         }
 
         [HttpPost]
-        public ActionResult<List<Character>> AddCharacter(Character newCharacter)
+        public async Task<ActionResult<ServiceResponse<List<Character>>>> AddCharacter(Character newCharacter)
         {
             //characters.Add(newCharacter);
-            return Ok(_characterService.AddCharacter(newCharacter));
+            return Ok(await _characterService.AddCharacter(newCharacter));
         }
     }
 }
