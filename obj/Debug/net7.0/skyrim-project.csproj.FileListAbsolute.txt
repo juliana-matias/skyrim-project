@@ -31,18 +31,6 @@ C:\Projetinhos\skyrim-project\bin\Debug\net7.0\skyrim-project.runtimeconfig.json
 C:\Projetinhos\skyrim-project\bin\Debug\net7.0\skyrim-project.pdb
 C:\Projetinhos\skyrim-project\obj\Debug\net7.0\skyrim-project.genruntimeconfig.cache
 C:\Projetinhos\skyrim-project\obj\Debug\net7.0\ref\skyrim-project.dll
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\appsettings.json
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\skyrim-project.exe
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\skyrim-project.deps.json
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\skyrim-project.runtimeconfig.json
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\skyrim-project.dll
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\skyrim-project.pdb
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\skyrim-project.csproj.AssemblyReference.cache
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\skyrim-project.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\skyrim-project.AssemblyInfoInputs.cache
@@ -50,6 +38,20 @@ C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\skyrim-projec
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\skyrim-project.csproj.CoreCompileInputs.cache
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\skyrim-project.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\skyrim-project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\appsettings.json
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\skyrim-project.exe
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\skyrim-project.deps.json
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\skyrim-project.runtimeconfig.json
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\skyrim-project.dll
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\skyrim-project.pdb
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\staticwebassets\msbuild.skyrim-project.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\staticwebassets\msbuild.build.skyrim-project.props
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.skyrim-project.props
