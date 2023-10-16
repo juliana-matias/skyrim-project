@@ -23,10 +23,10 @@ namespace skyrim_project.Services.CharacterService //caminho das pastas e arquiv
         {
             var serviceResponse = new ServiceResponse<List<GetCharacterDto>>(); // create a new service response object for every method and set the data property accordingly
             var character = _mapper.Map<Character>(newCharacter); //creating a new character to set the proper id number automatically
-            character.Id = characters.Max(c => c.Id) +1;
+            character.Id = characters.Max(c => c.Id) + 1;
             characters.Add(character);
             serviceResponse.Data = characters.Select(c => _mapper.Map<GetCharacterDto>(c)).ToList(); //mapping the whole list
-            return  serviceResponse;
+            return serviceResponse;
         }
 
         public async Task<ServiceResponse<List<GetCharacterDto>>> GetAllCharacters()
@@ -41,6 +41,37 @@ namespace skyrim_project.Services.CharacterService //caminho das pastas e arquiv
             var serviceResponse = new ServiceResponse<GetCharacterDto>();
             var character = characters.FirstOrDefault(c => c.Id == id);
             serviceResponse.Data = _mapper.Map<GetCharacterDto>(character);
+            return serviceResponse;
+        }
+
+        public async Task<ServiceResponse<GetCharacterDto>> UpdateCharacter(UpdateCharacterDto updatedCharacter)
+        {
+            var serviceResponse = new ServiceResponse<GetCharacterDto>();
+            try
+            {
+
+                
+                var character = characters.FirstOrDefault(c => c.Id == updatedCharacter.Id);
+
+                if (character == null)
+                    throw new Exception($"Character with Id '{updatedCharacter.Id}' not found.");
+
+                character.Name = updatedCharacter.Name;
+                character.HitPoints = updatedCharacter.HitPoints;
+                character.Strength = updatedCharacter.Strength;
+                character.Defense = updatedCharacter.Defense;
+                character.Intelligence = updatedCharacter.Intelligence;
+                character.Class = updatedCharacter.Class;
+
+                serviceResponse.Data = _mapper.Map<GetCharacterDto>(character);
+                
+            }
+
+            catch (Exception ex)
+            {
+                serviceResponse.Success = false;
+                serviceResponse.Message = ex.Message;
+            }
             return serviceResponse;
         }
     }
