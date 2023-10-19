@@ -2,6 +2,7 @@ global using skyrim_project.Models;
 global using skyrim_project.Services.CharacterService;
 global using skyrim_project.Dtos.Character;
 global using AutoMapper;
+global using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
