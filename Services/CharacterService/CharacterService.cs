@@ -25,9 +25,11 @@ namespace skyrim_project.Services.CharacterService //caminho das pastas e arquiv
         {
             var serviceResponse = new ServiceResponse<List<GetCharacterDto>>(); // create a new service response object for every method and set the data property accordingly
             var character = _mapper.Map<Character>(newCharacter); //creating a new character to set the proper id number automatically
-            character.Id = characters.Max(c => c.Id) + 1;
-            characters.Add(character);
-            serviceResponse.Data = characters.Select(c => _mapper.Map<GetCharacterDto>(c)).ToList(); //mapping the whole list
+            //character.Id = characters.Max(c => c.Id) + 1; sql does this automatically
+            _context.Characters.Add(character);
+            await _context.SaveChangesAsync(); //writes the changes to the database and generate the new id for the character
+            serviceResponse.Data = 
+                await _context.Characters.Select(c => _mapper.Map<GetCharacterDto>(c)).ToListAsync(); //mapping the whole list
             return serviceResponse;
         }
 
