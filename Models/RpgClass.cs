@@ -14,6 +14,7 @@ namespace skyrim_project.Models
         Soldier = 7,
         Thief = 8,
         Vampire = 9,
-        Warrior = 10
+        Warrior = 10,
+        Khajiit = 11,
     }
 }
