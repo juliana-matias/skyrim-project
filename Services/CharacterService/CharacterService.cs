@@ -8,11 +8,11 @@ namespace skyrim_project.Services.CharacterService //caminho das pastas e arquiv
 {
     public class CharacterService : ICharacterService
     {
-        private static List<Character> characters = new List<Character>
-        {
-        new Character(),
-        new Character { Id =1 , Name = "MissKhajiit" }
-        };
+        //private static List<Character> characters = new List<Character>
+        //{
+        //new Character(),
+        //new Character { Id =1 , Name = "MissKhajiit" }
+        //};
 
         private readonly IMapper _mapper;
         private readonly DataContext _context;
@@ -40,14 +40,15 @@ namespace skyrim_project.Services.CharacterService //caminho das pastas e arquiv
             {
 
 
-                var character = characters.First(c => c.Id == id);
+                var character = await _context.Characters.FirstAsync(c => c.Id == id);
 
                 if (character == null)
                     throw new Exception($"Character with Id '{id}' not found.");
 
-                characters.Remove(character);
+               _context.Characters.Remove(character);
+                await _context.SaveChangesAsync();
 
-                serviceResponse.Data = characters.Select(c => _mapper.Map<GetCharacterDto>(c)).ToList();
+                serviceResponse.Data = _context.Characters.Select(c => _mapper.Map<GetCharacterDto>(c)).ToList();
 
             }
 
