@@ -61,10 +61,10 @@ namespace skyrim_project.Services.CharacterService //caminho das pastas e arquiv
         }
 
 
-        public async Task<ServiceResponse<List<GetCharacterDto>>> GetAllCharacters()
+        public async Task<ServiceResponse<List<GetCharacterDto>>> GetAllCharacters(int userId)
         {
             var serviceResponse = new ServiceResponse<List<GetCharacterDto>>();
-            var dbCharacters = await _context.Characters.ToListAsync(); //acessanddo a tabela de caracters no banco de dados
+            var dbCharacters = await _context.Characters.Where(c => c.User!.Id == userId).ToListAsync(); //acessanddo a tabela de caracters no banco de dados
             serviceResponse.Data = dbCharacters.Select(c => _mapper.Map<GetCharacterDto>(c)).ToList();
             return serviceResponse;
         }
