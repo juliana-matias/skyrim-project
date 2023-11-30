@@ -110,3 +110,6 @@ C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\skyrim-projec
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\skyrim-project.genruntimeconfig.cache
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\obj\Debug\net7.0\ref\skyrim-project.dll
 C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Scrutor.dll
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.dll
+C:\Users\Bruno\Desktop\projetos ju\skyrim-project\bin\Debug\net7.0\Swashbuckle.AspNetCore.Filters.Abstractions.dll
