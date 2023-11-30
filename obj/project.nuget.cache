@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "p8kr/VTVl5jxcWXJZCY12CZdI9w3LHHp3FiKMDivAw6sbG7U0obASi0uZ5rhYhT77wDtPoPFt35HCic+Txr0dw==",
+  "dgSpecHash": "0p27Uxyj1IocLHKn+TH/Ia94yl0Ssgmlxy3SuXxDjLZB2pyKtKr3jObtNGqm5gaUtwQgvI87XUPgPPZEjsqHqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bruno\\Desktop\\projetos ju\\skyrim-project\\skyrim-project.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\Bruno\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\7.0.14\\microsoft.aspnetcore.authentication.jwtbearer.7.0.14.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Bruno\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
